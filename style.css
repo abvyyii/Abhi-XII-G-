@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.988);
+}
+.list{
+    width:25%;
+    float:left;
+    background-color:rgba(67, 67, 67, 0.745) ;
+}
+.def{
+    width:70%;
+    float:right;
+    background-color: dimgrey;
+    padding:10px;
+    font-size: 12px;
+}
+*{
+    text-decoration: none;
+}
+.info{
+    background-color: rgb(74, 74, 74);
+    height: 20%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 100%;
+    font-size: 20;
+}
+ol li a{
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+ol li a:hover{
+text-decoration: underline;
+color:darkviolet;
+font-weight: bolder;
+transition: all 0.5s;
+}
