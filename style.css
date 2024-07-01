@@ -13,6 +13,25 @@ body{
     background-repeat: no-repeat;
     
 }
+.sql{
+    background-image: url('bg3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sql .def{
+    backdrop-filter: blur(5px);
+    color: rgb(102, 249, 246);
+    font-size: 16px;
+    font-weight: 100px;
+}
+.sql .list{
+    color: rgb(140, 255, 253);
+    font-size: 16px;
+    font-weight: 100px;
+}
+.sql h1{
+    color: rgb(140, 255, 253);
+}
 .main{
     background-image: url('bg1.jpg');
     background-size: 100%;
