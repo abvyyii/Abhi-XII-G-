@@ -7,6 +7,32 @@ body{
     color:white;
     background-color: rgba(0, 0, 0, 0.988);
 }
+main{
+    display:grid;
+    max-width: 1200px;
+    margin-width:0 auto;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+main a div{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top:50px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0);
+    border:1px solid rgba(255, 255, 255, 0.6);
+    height:80px;
+    backdrop-filter: blur(3px);
+    transition: all 0.5s ease-out;
+}
+main a div:hover{
+backdrop-filter: blur(5px);
+transform: scale(1.1);
+box-shadow: 0 0 35px var(--clr);
+transition: all 0.5s ease-in;
+color:var(--clr)
+}
 
 .dbms{
     background-image: url('bg2.jpg');
@@ -62,7 +88,7 @@ body{
 }
 
 .main{
-    background-image: url('bg1.jpg');
+    background-image: url('bgmain.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -87,9 +113,9 @@ body{
 }
 
 .info{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 10px;
-    border:1px solid rgba(255, 255, 255, 0.39);
+    border:1px solid rgba(255, 255, 255, 0.6);
     height: 20%;
     padding-top: 40px;
     padding-bottom: 30px;
@@ -97,28 +123,6 @@ body{
     font-size: 20px;
     backdrop-filter: blur(5px);
 
-}
-.list1 ul li a{
-color: rgba(0, 0, 0,0.5);
-font-weight: 1000;
-font-size: 20px;
-}
-.list1 ul li a:hover{
-text-decoration: underline;
-color:rgb(0, 0, 0);
-font-weight: 1200;
-transition: all 0.5s;
-}
-.list1 ul li{
-    color: rgba(0, 0, 0,0.7);
-    font-weight: 1000;
-font-size: 20px;
-display:block;
-}
-.list1 ul li:hover{
-color:rgb(0, 0, 0);
-font-weight: 1200;
-transition: all 0.5s;
 }
 .git .def{
     float:left;
