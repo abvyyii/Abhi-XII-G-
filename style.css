@@ -141,3 +141,15 @@ color:var(--clr)
 .xampp .def ul{
     color:rgb(72, 4, 86);
 }
+.icons i{
+    color:white;
+    transition: all 0.5s ease-out;
+    transform: scale(1.5);
+    margin:10px;
+    
+}
+.icons i:hover{
+    transform: scale(2);
+    box-shadow: 0 0 20px var(--clr);
+    transition: all 0.5s ease-in;
+}
