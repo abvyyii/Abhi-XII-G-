@@ -1,3 +1,45 @@
 <html>
+    <head>
+        <title>!!!</title>
+        <link rel="icon" href="icon.png" type="image/icon type">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script></head>
+    <body>
+        <div class="def">
+            <h1>FUNCTIONS IN C</h1>
+            <ul>
+                <Li>
+                    Write a C program to find the square of a given number using user 
+defined functions. Define three functions, take input from the user using one function, calculate a square in another function and display the result in another function.
+
+                    <button class="ans" onclick="ans()">Answer</button>
+                    <div class="popup">
+<textarea class="ans1" readonly>#include<stdio.h>
+    int a,c;
+    void input(a), sq(a), display(a,c);
+    int main(){
+        input(a);
+    }
     
+    void input(a){
+        printf("enter a number:");
+        scanf("%d",&a);
+        sq(a);
+    }
+    
+    void sq(a){
+        int c=a*a;
+        display(a,c);
+    }
+    
+    void display(a,c){
+        printf("\nsquare of the number %d is %d",a,c);
+    }
+    </textarea>
+                    </div>
+                </Li>
+            </ul>
+        </div>
+    </body>
 </html>

@@ -10,7 +10,7 @@ body{
 main{
     display:grid;
     max-width: 1200px;
-    margin-width:0 auto;
+    margin:0 auto;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
@@ -152,4 +152,15 @@ color:var(--clr)
     transform: scale(2);
     box-shadow: 0 0 20px var(--clr);
     transition: all 0.5s ease-in;
+}
+textarea{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(3px);
+}
+.ans1{
+    width: 430px;
+    height: 335px;
+    resize: none;
+overflow: hidden;
 }
