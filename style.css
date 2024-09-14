@@ -157,10 +157,40 @@ textarea{
     text-align: left;
     background-color: rgba(0, 0, 0, 0);
     backdrop-filter: blur(3px);
+    transform: translate(-50%,-50%) scale(0.001);
+    visibility: hidden;
+    resize: vertical;
+    width: 50%;
+    transition: all 0.175s ease-in;
+    box-shadow: 0 0 30px rgb(72, 4, 86);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
 }
-.ans1{
-    width: 430px;
-    height: 335px;
-    resize: none;
-overflow: hidden;
+.ans{
+color: white;
+background-color: rgba(0, 0, 0, 0.166);
+font-weight: bold;
+border: 1px solid rgba(255, 255, 255, 0.2);
+height: 25px;
+width: 65px;
+border-radius:5px ;
+transition: all 0.5s ease-out;
+}
+.ans:hover{
+    box-shadow: 0 0 15px rgb(115, 249, 246);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    color: rgb(115, 249, 246);
+    border: 0.5px solid rgba(0, 247, 255, 0.4);
+}
+.c .def{
+    float:left;
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.c{
+    background-image: url('bg.png');
 }
