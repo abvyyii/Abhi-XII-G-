@@ -141,6 +141,10 @@ color:var(--clr)
 .xampp .def ul{
     color:rgb(72, 4, 86);
 }
+.icons{
+    position:fixed;
+    bottom: 0;
+}
 .icons i{
     color:white;
     transition: all 0.5s ease-out;
